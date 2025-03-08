@@ -1,0 +1,138 @@
+.flex {
+  display: flex;
+}
+.items-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+.w-full {
+  width: 100%;
+}
+.max-w {
+  max-width: 1300px;
+}
+.none {
+  display: none;
+}
+.block {
+  display: block;
+}
+/* blog container style */
+
+.blog-container {
+  margin: auto;
+  max-width: 1300px;
+}
+
+/* search container style */
+.search-container {
+  width: 300px;
+}
+.search-box {
+  width: 300px;
+}
+.search-box input {
+  width: 100%;
+  height: 15px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  border: none;
+}
+
+.display-keys {
+  z-index: 1;
+  position: absolute;
+  background-color: white;
+  color: black;
+  margin-top: 2px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  /* width: 100%; */
+}
+.display-keys ul li {
+  width: 300px;
+  position: relative;
+  background-color: white;
+  color: black;
+
+  padding: 5px 0px;
+  border-radius: 5px;
+  list-style: none;
+  cursor: pointer;
+}
+
+/* card style */
+
+.card-container {
+  width: 300px;
+  margin: 10px 5px;
+  padding-bottom: 4px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  cursor: pointer;
+}
+.card-container:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.card-container img {
+  border-radius: 15px 15px 0 0;
+  object-fit: cover;
+}
+
+.content-container {
+  padding: 3px;
+}
+.content-container p,
+h2,
+h5 {
+  margin: 5px 0px;
+}
+.content-container p,
+h5 {
+  color: rgb(57, 57, 57);
+  font-size: 1rem;
+}
+.container {
+  background-color: rgb(49, 49, 249);
+}
+.navbar-container {
+  padding: 0 5px;
+
+  color: white;
+  max-width: 1300px;
+  margin: auto;
+}
+.list-container ul {
+  text-decoration: none;
+}
+.list-container ul li {
+  padding: 2px;
+  margin: 2px;
+  text-decoration: none;
+  list-style: none;
+}
+
+.btn-container {
+  margin: 20px auto;
+
+  text-align: center;
+}
+.btn-container button {
+  padding: 5px 10px;
+  margin: 10px;
+  font-size: 1.2rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: white;
+}
